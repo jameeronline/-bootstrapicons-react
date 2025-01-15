@@ -1,0 +1,31 @@
+{
+  "name": "@bootstrapicons/react",
+  "version": "1.0.0",
+  "description": "A library of SVG React components for icons.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files --ignore 'src/icons'",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/my-icon-library.git"
+  },
+  "author": "Jamal Mohamed Ameer",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "react-components",
+    "icon-library"
+  ]
+}
