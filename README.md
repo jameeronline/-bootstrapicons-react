@@ -1,15 +1,15 @@
-# My Icon Library
+# React Components of Bootstrap Icons
 A library of SVG icons as React components.
 
 
 ## Installation
 ```bash
-npm install my-icon-library
+npm install ab-bootstrapicons-react
 
 
 ## Usage
 ```javascript
-import { AddIcon } from 'my-icon-library';
+import { HouseExclamation } from 'ab-bootstrapicons-react';
 
-const App = () => <AddIcon width="24" height="24" color="blue" />;
+const App = () => <HouseExclamation width="24" height="24" color="blue" />;
 export default App;
